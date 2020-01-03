@@ -35,7 +35,7 @@ public class JamesAppSpringMain implements Daemon {
     private JamesServerApplicationContext context;
 
     public static void main(String[] args) throws Exception {
-
+        // 测试提交
         long start = Calendar.getInstance().getTimeInMillis();
 
         JamesAppSpringMain main = new JamesAppSpringMain();
